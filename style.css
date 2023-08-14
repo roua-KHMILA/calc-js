@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.calculator{
+    width: 35%;
+    height:90vh;
+
+    border-radius: 12px;
+    background-color: #2d302a;
+    
+
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+
+}
+form input{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color:#efeff2;
+   
+    text-align: right;
+   
+    margin: 0;
+    padding: 0;
+}
+button{
+    width:50px ;
+    height:53px ;
+    
+
+    
+}
